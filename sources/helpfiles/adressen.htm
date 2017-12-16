@@ -1,0 +1,222 @@
+<html xmlns:tool>
+<head>
+<meta name=vs_defaultClientScript content="VBScript">
+<meta name=vs_targetSchema content="http://www.sebijk.de.ki">
+<META HTTP-EQUIV="Page-Enter" CONTENT="blendTrans(Duration=2)">
+<META HTTP-EQUIV="Page-Exit" CONTENT="blendTrans(Duration=2)">
+<BODY DIR="LTR" BACKGROUND="background.jpg" bgproperties=fixed>
+<title>Sebijks Adressverwaltung</title>
+ <hta:application
+   id="Adressverwaltung"
+	ApplicationName="Adressverwaltung"
+	Border = "thick"
+	caption="yes"
+	icon = "adressen.ico"
+	maximizebutton="yes"
+	minimizebutton=="yes"
+	showintaskbar="yes"
+	singleinstance="no"
+	sysmenu="yes"
+	version="1.03"
+	contextmenu="no"
+	>
+
+<script id=clientEventHandlersVBS language=VBScript.Encode>#@~^BjQAAA==@#@&@!Z O@#@&@#@&@#@&vPmEWVb/On	Pl^s+MP+bUODm+T+~l;d,NnD,[lD+U8mx3@#@&6EUmDrKx~&xk+DDZsV_K\SvP^n^V~,^+^VYaO#@#@&,P~Nrh,/OD,@#@&,P~dDDPx~r@!WW	O,0C1+{\+MNmUl,/ry'q@*rP_,^+^VYaOP3Pr@!&0GUD@*E@#@&~P,mns^RkUUDuKtJ,'~kYM@#@&x9~0!x^YbWU@#@&@#@&6;x1YkKU~q	/DOZns^`~D^WMNS~KIWAS,mnV^Um:n*@#@&dNb:,O+XY@#@&iNrh,WZsV@#@&dDnaY,',DnmG.9RoksNk`~^VVUCs+b@#@&7k+O,W;+V^P{~W"WARbxdnMYZsVv#@#@&7(xk+MY/+ss_K\S,GZVsS,Y+aO@#@&nx9~6EU1YbWx@#@&@#@&0!x^YbWU~&x/.Y"Whv~.+1WMNb@#@&79khPKPl(Vn@#@&d/nO,WPl(sPx,NKmEs+	ORmVs`rl[.//UJ*@#@&i[r:,W"WA@#@&7k+OPK]WSPx~KKl8sRrxknMY]Khv#@#@&@#@&7q	/nDDZns^PD^WMN~,G]WS~,J-W.Um:nJ@#@&d&xdnMYZns^P.+1GMNS,W"WhBPrUls+E@#@&d(Uk+DD/+^VPMn^WMNBPGIGABPE/D.lk/nE@#@&d(Uk+.Y;n^V~M+1WD9~,GIKhSPrtC;kxDr@#@&iqxkn.Y;+^V~Dn^KD[~,GIKhS~rwV"E@#@&7q	dDO;+^VPM+1GD9~~W"WAS,JWMOJ@#@&d&Ud+MY;+sV~.mGD9SPKIGABPJOn^+WW	E@#@&7&xk+DDZsV,DnmKD[S,WIKA~,J+sCrVr@#@&d(xdnMY/+^sPM+^GMN~~G"WA~,E4lU9Xr@#@&iq	d+MY/+^V~.mWM[~,WIKASPrtK:nwCLJ@#@&UN,0;U1YkGU@#@&@#@&U;(PC9N@#@&?Y,[4,'~ZM+COr4NnmD`Jz96f~R;WUxn^DkGxrb@#@&?nO,h/4d4+sV,x,Z.lD+r(L^YvJ	?1Dr2DR?4nV^J#@#@&j+DP6/~'~/M+CY64N+^OvJ?^.bwOk	Lcsr^+UX/D+s64N+^Yr#@#@&@#@&/N[kMP',E -r@#@&:zNG^,'~hk4/4+ssc?wn^blssKs9+.k`rHXGW1;:xO/r#@#@&94xmh+,'P6d 4!k^N2lO4v/%Nb.~,JC[M+/dn	RhN(E*@#@&@#@&aDW7k9nD,'~JhDG-bN+MxHbmDKdG0DRx+OR6JAf$RW !pfCOmP?G;Mmn'rErP',N(xls+,'PrJEJ@#@&[8crwUPaDW7r[+M@#@&@#@&fG@#@&d-WMUls+~x,qx2;DAG6vEV+8x,?kP9nx,.GD	lhn	P+bU"r~JUn8kN3kP)N.nk/-+MAl^Y;UTJ#@#@&iqWP&dA:2DXv\WMxmh+*POtx~nXkY,9W@#@&d7G.xm:PxP]naVCmc\KDUCs+~~EEJSPrvEJb@#@&ixls+,xP&x2EDAGavJM8+	P?bn~Nx,1Cm4Um:nx,nk	"ESr?+8rN3dPz[M+dk\DhmVD;xTJb@#@&d(W,q/AhwDX`	Ch+*PDtnx~nXkOPGG@#@&dUCs+Px~"+2Vm^`Um:~PrBrSPrBvJ*@#@&7kYDmd/P',(Uw!Y~Wa`E!4nx,jkP[rP?O.m/d+,nbxZr~r?+(kNV/,b[D/d-DhmsY!xorb@#@&iq6P(/3haYz`kODm/dn*PY4n	Pn6bO,fG@#@&i/YMlkd+,'~IwsC1+`kODm//S~JEJBPEBvE*@#@&d4CEkx.~{PqU2!Y$WXcrMn(+	P?b+,[kPul!/U.cP+bU"r~JUn8kN3kP)N.nk/-+MAl^Y;UTJ#@#@&iqWP&dA:2DXvtl!/	.#,Y4+	PnabYPGG@#@&dtm;dxMP{P]+2smmn`4CEkx.S,JBES,JvBrb@#@&7aV.P',q	2EDAG6vJ!n(+x,jkPNbn~nd},+rxZEBJj+(rL0/~)9D+dd7+.hmsDEUTJ*@#@&iq6~qk2hwDXc2^y#,OtxParY,fK@#@&d2s.PxP"nw^l^nvwV"S,JvJB~rBvr#@#@&dKDD~',qUw!Y$GX`JVn4xPUrnP9+	P6DO~kU"rSJU+8rN3/~)9Dn/k-DAmVDExTJ*@#@&iqWP&/3haYXvGDD#PD4nx,+XkOP9G@#@&7WMOP{P]naVl^nvW.YB~rBEBPrBBr#@#@&dD+s+6WU~{Pq	2EDAWXcEM4x~?rn,Nr+,P+^+WG	xEhhD~+bUeJSr?4kN3k~b9Dn/k\n.SlVD;xTJ#@#@&7q6P&/3:2OH`O+^n0Kxb~Dt+U~6rY,9K@#@&iYV+6W	~',Inw^l^nvY+^n0Kx~,EvJBPrBvJb@#@&dn:mrV,'~(	wEO$K6cJVn(+U,?b+P9k~2 HCk^O)[M+/knPkxeESJU+(k%3d~zN.+kd\DAC^YEULr#@#@&i(6P(k2swYH`hlbVbPDtnU,+6bOPGW@#@&7n:mk^PxP]naVCmc+slrsBPJvEBPEBEE*@#@&itmxNHP{~q	w;Y~WacrM+(nx,?k~[kP_lUNzUMR~+bU"r~Ej4k%VkP)NMnk/-DSlVDE	LJ*@#@&d&0~(k2:aOXvtl	[z#,Y4+UPnabY~fK@#@&itCU9XPx~"+2Vm^`4mx9X~,JEE~,JvBr#@#@&itWsnwmo+,x~q	w!Y$WacrMn4UPUkn~9k+~uK:nwmLPnbxeJ~r?8kN3dPzN.nk/\.hmVY!ULJ*@#@&d(0~(k2hwDz`4Whnalonb,Y4+	~6rDPGW@#@&d4G:wCoPx~"+w^Cm`tKhnwmo~~JvEBPEBEE#@#@&7d$VPx~rkU/.DPr	YKPb9Dd/x~`7W.Um:+B~xm:+B~dYMlk/n~~4mEdxMSPaV"S,WDOS,YnVWKxS,+slk^~,4l	Nz~,tGhwlTn#,.bdi3?,`EJ@#@&7d$V~',d;^P'~7WDUCs+~[,EE~vrPLPxm:~[,Jv~EJ~',/YMC/k+PL~EBBBrP'P4C!/UD,'PrBSvrP[~2^y~[,EE~vrPLPWMY,'PrBSBrP'~D+VWW	P[,Ev~EJ,[~+hCbV~[,EBBBE~LPtCU9X~[,EE~vrPLPtK:2lT+~[,Jvbr@#@&i\/TAWX~E?b+,tC4nU,0GVTnx9+d~kxLnT+8+	l,J~LP74ZMPL~/$V~[,J~F^km0nx,?k~CE6P}|~Eh~6W.Y.;0mt.n	RJSW~E?8bLVkPzND/k-+MhCVDEULr@#@&i[4c26^;YPk;s@#@&7t/LAKaPrfrn,bN.nk/nPS;MNn,+M0W^oMnk1t~o/2nbmt.Yr~vWSE?4bLV/~)9Dn/k-+MhCsDExLE@#@&JWK2@#@&3	N,?E(@#@&@#@&UE8Pk+C.1t@#@&j+DPN(~xP;DlO+68N+^YvEbGr9$cZWUUmOkKUr#@#@&?YPS/4dtVsP{P/.lY64N+mDcEUmMk2Y j4+sVrb@#@&?nO,0/~x,Z.+mOr8N+1Y`r?1.kaYrxTRor^+?HdY:r(%nmDJ*@#@&@#@&hHNGm,xPS/4d4+Vs UwnmbC^sG^ND/vJtzfKm;:xOdr#@#@&[4	l:~xP6/c4;ks[alOtvdL9k.S,JRwC9Dn/kn	Rh94r#@#@&@#@&2DK\rND~x,JnMG\bN+Mx\k1DK/G0O x+OR}J2GA *c!i9CDl~?K;Mmn{JrJPLP98xm:nPLPEErJ@#@&[4crwU~wMW7k[+.@#@&/;m4Uls+~x,qx2;DAG6vEV+8x,?kPrxx~Kks~9+/,L+kEm4Onx,1mm4xChxdPrxeJSEU+4r%0/~b9./d7+Mhl^Y!Uor#@#@&&0~(k2:aOXv/E14Uls+*POtnU,+akD~/!4@#@&i@#@&d5^PxPrdVn1Y,eP6DKhPzN.+k/nU,ht.+,xlsn~Vb3Pv]E~LPdE14xm:n~LPJYvr@#@&@#@&WbVn	ls+P{P6dR~ErV9nCO4`/N[kM~Pr[8D/!VOR4OsJb@#@&j+DPWr^+Px~6/ ZMnmYn:+XYsbVc0bVnxm:nS,YD!n#@#@&0bsnRqDbYnSrUPE@!:(Kd2@*j4k%VkP)NMnk/-DSlVDE	LP P3DT+8Ub//@!z:qKd3@*J@#@&6ks+ 	MkO+drxPE@!~rfe~Gq]'dP"P$zZnMI}jg9'(l^3TDG;	NRN2o,4oa.GwDDkn/xWb6nN@*E@#@&0rsR.rD+Jk	n,J@!_KtS@*@!A}95@*@!Pb~S3~~rIG3I{F@*r@#@&0bVR	DrOSrx~J@!K]@*r@#@&jnDP./,x,N8c2X+m!Yc/$Vb@#@&sG.,+l14P6k+^[~k	PM/ 0rn^Nd@#@&~P6ksncDrOSrx~r@!P_@*rP[,0bnV9RUls+~',J@!JPC@*J@#@&Hn6D@#@&0rVn qDrYJk	+~E@!zK]@*r@#@&fK~!xObV,D/c+KW@#@&P~0bVn qDkDnSbx+,E@!K"@*r@#@&P~oKD~+m^t,0rn^NPrU,DdR6rV[k@#@&PP,P6rVR	DbYnJbx+,E@!:f@*r~'P6kV[R-C^EnPL~J@!zP9@*J@#@&~,1n6D@#@&P~6k^+RqDbO+dkU+,J@!&:I@*r@#@&,PDk \W7+g+aY@#@&dWGw@#@&@#@&0rsR.rD+Jk	n,J@!JKzASA@*@!&A}fe@*@!zuPtS@*r@#@&6kV ^VK/@#@&@#@&jY~hk4/4+ss,'P/.lO+}8N+^D`r?1Db2Yc?4+^VEb@#@&hk4/4+V^ ]E	PrJEJ~',0rVUls+~',JJEE@#@&3x9~UE8@#@&@#@&?!4,[+^@#@&?Y~C9W6,xP;D+mOnr(LmO`E)GrpR;CYmVGLr#@#@&jY~hk4ktn^V,'P;DCYr8LmOcr?1.kaYRU4nV^J*@#@&?nO,0dP{~ZM+COr4%n1YcJU^Mk2Dk	oRwk^n?H/O+sr8%mYrb@#@&3+	UAWMY,'~qU2!Y$WXcJ~kOOPon8x~?bn,NCkPhl/khK.Y,+rxeJSEU+4b%3kPb9.n/k\DAlsO!xLJ*@#@&&0~VxxAGMY~',ErPO4+	PHko~G6,JjkP4C(+x,Uk1tYk~nk	oon4nUeP9k~b9Dndk+x~AD[+	~	k^4Y,o+^ö/14YeJSP74/.bYk1CVBPJUn8kN3kP)N.nk/-+MAl^Y;UTJ@#@&(6PV+	USW.DP{PJrPD4+	Pn6bY~d!4@#@&(0,3+	UAWMY,'~JOAM+33(jS8,)prPY4n	@#@&:HWbVn,',JR'l9.+k/nxc:[8r@#@&&WP6/Rwrs+A6b/O/chH0rVbPDtnU@#@&N8~{PW/c8!ks9wmYtv:HWk^+SPrJb@#@&wDK-k9+D,x~JhDK\rNn.{HrmMG/K0O x+Y 6d29Ac*c!IGlDlPUW!.m'EJrP'~94PL~JrJJ@#@&CxDhKDOPx~t/LAKa`rGs^+x~jb+~hb.0Vr1t,lV^+,)NM+d/x~sökmtUgr~P78e+k1K_-43a1VC:mOkKxQ-(?XdO:\W9C^~~r?4kN3k~b9Dn/k\n.SlVD;xTJ#@#@&~P&0,lUYAGMY~',-4gW~O4+x~@#@&P~P,~6rDPkE4@#@&,~+^/n@#@&P~~,P0k fV+Dnok^+,N8~O.!+@#@&,~2	N~(6@#@&~~Vd+@#@&,P3	N,q0@#@&,~+^/n@#@&kW~	WY,V+	xhK.OP{PrYADn304jS81boJ~O4+x@#@&,P\/T$K6~rfm/PhlkdhKDOPb/O~!xoü^OkT"PGrnPzNM+d/nU,hnD9nx,xr^4YPLn^ö/^tDZr~~74;DkDk1CVBPE?4r%0/Pz[D//7n.hmVDEUoE@#@&P~+	[Pb0@#@&,P+arDPdE(@#@&2U9P&0@#@&l9G6cZ.+mYn~aDW7rND@#@&jnY,Ym4s+~x,Z.+mO+}4%n1Y`E)GrpR:C(Vnr#@#@&Ym4^nRglh+,'~EzNDd/xJ@#@&vPzEDWHEh8DRssN,NnWbxkn.x@#@&UnDP^KV!:x,',/DlO+}4%n1Y`r)f}(R;GsEsxr#@#@&^G^EhxcHls+~x,Jk[E@#@&^W^;sx :Xa+P{P2@#@&U+OP1Ws;sxRhCDxY;COl^WTPxPC[K6@#@&1GV!:U aDW2nMYr+kcrb;DW&xmM+snxDJbP{PP.!+@#@&Ol(V+c/GV!:	/ b22x[P1GV!:U@#@&BPUGM:CVd,sn^N,N+6k	r+M+U@#@&YC8^+R;GV!:xk )wa+	N~JUCs+E~yT B XX@#@&YC8^+ ZKs!:Uk`rxls+rbRzYODb4;O/P{~&@#@&B,UGDsl^+dPon^N~NWk	kn.x@#@&Om4s+c/KV;sxkRbawUN,J-WMxChJ~yT B *l@#@&Ym4^+ ZGs!:U/vE\KDUCs+Jb zYODb8!YnkP{P&@#@&E~xKDhl^+d~w+V9~N0k	rnDx@#@&Ol8sR/W^;:	/ )aw+U[,Jn:mr^JSy!y~ l*@#@&Ym4s+cZGs!:xkcJ:lbsE#cbDY.k8;D+dP{~&@#@&v~	WDhC^+dPwn^N~9+6kxb+Mnx@#@&Ol(Vn ;WV!hxkRba2nx9PrYnVnWKxE~yT B XX@#@&YC8^+ ZKs!:Uk`rY+^+6Gxr# bDY.r(EYdP{P&@#@&vP	WM:CVnd,snV9~N0rUb+DnU@#@&Ol(sR/KV!:xkRz2wx[Pr/O.m//E~y! B+X*@#@&Dl8Vn ;WsEsU/vJdOMl/dnr# bDOMk8!Y/P{P2@#@&EPUWM:Cs/PwnV9PNWrxb+M+U@#@&Om4s+c/W^EhUkRb22x[Pr4mEd	Dr~ Z B+*l@#@&Ym4sncZW^;:	/`r4CEkxMJbR)ODDr4!O+kPx~2@#@&v~	W.:ms/~w+^NP9+6rxb+.+	@#@&Om4V ZKVEsUdRzwa+UN~EaV"JB+!y~+Xl@#@&OC(VnR;G^Eh	/vJw^yrbRzYODb4;O/P{~&@#@&B,UGDsl^+dPon^N~NWk	kn.x@#@&Om4s+c/KV;sxkRbawUN,JGDDJS+Z ~yX*@#@&Ym8s+cZKV;:UdvJGDDE#cbOOMk4;O/~',f@#@&v,xKD:mVdPw+sN,NnWbxk.+	@#@&DC8VR;WsEhUkR)wanx9PE4mxNzEB T B+l*@#@&Ym4VR;GV!:U/vJ4C	NXrbRzYYMr8ED+kPxPf@#@&B~xK.:mVnd,s+s[,Nn0bUb+.x@#@&Ym4^nR;WsEsxd zwwUN,JtKhnwmoJS T+B X*@#@&Ym4sncZWs;sxd`r4K:nalT+J*RzOYMk8ED+d~{P&@#@&l9W6cPC4^+kR)w2n	N~Ym8V@#@&\koAGa,J)V^n,b[M+k/+	PS;D9+UPT+söd1tYeE~,vcB~E?4bLV/~)9Dn/k-+MhCsDExLE@#@&3x9~UE8@#@&@#@&?!4,2DbxO+M@#@&nMo+(UkkP',\do~WX`EAn-KD~?bnP9kn~zNDndk+UP9.!mVxBP/D+^s+	PjkPdr1t+M~Nm//,dr+,Nb+~b[./d+	~l!0Ln^k/OnDP4l(n	R~rP|@#@&LP78ZMP'P,J3d,+:aWktVD~dk1t,l;ß+.[:~NbnPzN.nk/+U~b:~p!nM0GM:mYPmEk"E9D;m0+UZ,W^s+	P?bn~LY.Y~f.;13nxQE~,\8e/1G~3P-45;/ObW	~Pr?8kN3dPzN.nk/\.hmVY!ULJ*@#@&kWPn.T+8xbdP{P-8gWPO4x~+XrDPd!4@#@&hbx9Ghcw.k	Ycb@#@&+	[PkE4@#@&@#@&UE(P.+sGmN@#@&^GmmYrG	RDnsKl[`*@#@&+U9PkE4@#@&@#@&?!4~4mmV;a@#@&$;+^Vw6C[P{PrRwJ@#@&U+OPqdtUtns^P'~/M+CY6(Ln1YvJkmMrwDRjtVsE*@#@&UnY,s/ix~ZM+mYnr8%mO`rjmMk2Obxo obVn?HdD+h}4N+mDJ*@#@&U+OPzw2j4+V^~',ZDCO+}4N+^YcEUtnV^ bawsr1lYrG	Jb@#@&jY~!:T+4!xTxktjtVs Ax\b.W	:+	OcJhI}Z3?jE*@#@&hbUNbDx;so+8;	ocJSr	NrMJ*@#@&D+s2'!:L+(EULvJYhwr#@#@&jnY,AMWA/nK6l[P{~bawd4VV $MWA/oKDoKV9+Dv!B~J~kOYPAä4^+x,jkP+bU~rMN	+.PC;k~~hK~Nb+~)9D+dd7+.hmsDEUTPT+/bm4nDDPA+MNnU,/W^s"r~P,'u!Z!8~~F{b@#@&6x,3DMW.~"+/;hPH+XO@#@&(6P~DWS/K0mN~',JE~:t+	~+XkY,d;4@#@&}D[xn.,'~AMGhk+KWmNRKCM+UYwG^NnMRhlDk+gC:`$DKhdnh0l9 KbYVb nmY4@#@&d(W,+.DcUEs4n.,@*PT~:tnx@#@&ikxbxkYDvAMGhk+K0mNS~r)J*@#@&irD9UnD,',:rNc$MWA/K0mNS~bPO~qBPq#,',Jl'J@#@&dAx9~q6@#@&d@#@&(W,xWD~`w/RwGsNDA6r/Odvr.N	nD*#~P4+x@#@&io~',hko8K6vJä4VUPUknP(kOOP+bU+	Poü^Orox,r.NUnMPCEk JB\8/MkYr^mVSJUn(k%0/,bNM+kd\DAl^Y;UTJ#@#@&d6kD~dE(@#@&2UN~(6@#@&@#@&r'S/4d4+Vs aW2Eacr?rP4l4x,CVkPtkV2WmNPr~[,rD9UnD,[,J~+rUT+L+(nxeP9rPb[./d+	~S+.9+	PE	Y.PrP'P}D[UDPL~JmNDdd+	PT+dwnr1tnDD J,{@#@&LP\8/MP'Pr~qWs^+	P?b+,WWMYWl4DnUQJ~BE?4kNVdPzNM+d/-nMhCVD;xTJS*,_P-85En/DrKxb@#@&b0PbP{~v,Y4+	P@#@&b0P	GY,0/coGV9+M2akdOk`6D9U+M#~O4+x~WkR/DCD+oKV9+DvrM[xDb@#@&djnDPh(C/NAlD^4P{P6/ r2n	Kn6Dok^+c~D+:2~LPE-~C13;aR(lYr~,+~,K.E#@#@&idh(C/N4lD^4RqDbYnVrUPE@$^tKPGW6J@#@&7ih8lk%(lO1tcDbYsk	+~Jm4G,?+(rL0/Pz[.+k/7+.hCsDEUo,qRZ&E@#@&ddA8m/%4mO1t qDbY+^k	nPr+^tKP/GaXDbLtDP ZTXP(X,?n4r%0R~b^s+,In^4Y+~-KD8+4C^Yn	Rr@#@&idS8lkL8lDm4 qDkDnVbx+,Enm4W,tOY2lJzAhS /4r%0RNn 0kE@#@&7ih8m/N4lDm4 MkO+^kUn,JIA\P;WwH.ro4Y CrxAnb/~xb^tDPnUD0+.Ux J@#@&idA(lkL4mY14RqDrYVrUPJbWPrJ]}jYJr'{JErU9WA/|HKrJ~ObYVn~U+8kNVkP)9D//7+MAl^Y;xTPq Z&J@#@&dih4md%4mY1t .rD+sk	nPr+^4KRJ@#@&idA4mdN4CDm4RMkDnVbxnPr:[~rP[,6D9x+M~'Pr-mN.+ddxE@#@&7dS4CdN4lO^4R	DbOVr	+,JmKwH~J,[~;!+ssa0l9~[,JPr~'P}D9xnD~',Jwl9.+k/nUr@#@&77S4C/N8mY^4RqDkD+^rxPENV~E,[P}.N	+D,'~J'l9Dn/dn	-;xbU/CJ@#@&idh8CkL8lD^4R	MkD+Vbx~J9+sPrP'~}DN	nD,[PrwCNM+k/nxw8mmVEa er@#@&7ih4CdN4CY14c.bYVk	+,EwmEd+r@#@&7ih4mdL(lY14 Z^Wk+@#@&77q/4?4nV^R];	PYnhaP'Prw~l^0EaR4mYrS~DD;+@#@&776/RGnVY+wrs+,Y:2P'~r-$l1VEaR8CDJ@#@&7iHdo~GXPEGkPb9Dd/x~h!D[n	P+MWW^oDr^t,o/rm4nMYZJB~vW~~EU+4r%0/~b9./d7+Mhl^Y!Uor@#@&2	N~(6@#@&AUN,?E(@#@&@#@&?!4~DndDW.+@#@&3xUAKDY~x,qUw!O~WavJ~kYD+,L+(+UPUkn~9l/,Klk/hK.OPk	"E~Ej4rL0dPzN.nk/\n.SlsY!UTJb@#@&&0P0+	UhKDOP{PEE,YtUPt/o~GaPr?b+~tC8x~xb^tD/~nbxonL4nxe~Gkn,b9D+k/UPS+.Nx~UbmtD~hb+N.4+Mo/O+ssD"E~,-4;DrObmlsS,Jj+(rN3d,b9D+k/7nDSlsY!xLE@#@&q6~3xxSG.Y,',JEPO4x~+XrY,/;8@#@&qW~0+UxSGMY~{PrYhM+AV4USq,z(E~Dt+	@#@&$E+^s20mN,'~J wr@#@&?OPq/4j4+Vs~{P/DCD+6(LmYvJqdmMk2Yc?4n^VJ*@#@&U+Y,odd{P;DnlOn}4%+1O`r?^.bwYrUTRok^nUXdD+sr4N+1OJ*@#@&?Y~)aw?4nV^P',/.+mYr8Ln^D`E?4nV^R)2aVk^CDkGxrb@#@&jY,E:T+(;xT'	/4?4n^VRAU\bDW	hnxD`rn]r/3U?E#@#@&hbx[rM'EhL4;xTcrhr	NbDJ*@#@&O+swxEson8!xovEY:wrb@#@&U+DP$DGAk+K0m[P{P)2a/tns^R$DKAk+oKDwWV9+Mc!BPEAbYOn,hät^nx,?k~nk	P}D[xn.,l;/B~hKPdr1tP[rP)NMnk/[mYx4mx0[lD+rP(+Wr	N+DZJBPPLuT!ZFBPqGb@#@&rUPA.DKD~]/Ehn,1n6D@#@&qW,AMWhk+hWl9PxPrJ~P4+x,n6bYPk;8@#@&rMNU+.~{P$DKA/nWC9RnC.xOsKs9+.cnmD/1mh+vA.WS/nK6lNcPkDV+* KlDt@#@&7qW~D.R	;:(+.~@*P!~P4+U@#@&7b'r	/DD`~DKA/nWl9~~E=J#@#@&d}DN	n.P{Psk[`$.Khd+hWl9~~r,OPqS,FbPL~r)wr@#@&d2	N,(0@#@&7@#@&qW~	WY,cskRsKs[+M2XkdYdc}D[x.#*PP4x@#@&7TPxPsdT4GX`rät^+	~?b+~4bYOn,+k	nx,oüVDrL+	P}D[xn.,l;/cE~74/.bYk^C^~E?8bLVkPzND/k-+MhCVDEULr#@#@&7+XkY,d;4@#@&Ax[P(W@#@&@#@&bxhktd4VV 2Kw;wvEUkn,tm4+	Pms/,nWl9PE~LPrM[xDPL~EPk	onon8xZJ,'P74/.,[PEE,[~\(/MPm@#@&LPJzZ_PjgMlPzVsn,bNMn/k+x,[r+,k4D~y;syOPrxT+Ln(+x~4mYO+D~S+.9+	Pü4Dk^tMkn4x_~qWV^nx,?k~WWMY6l4DnUQJS\(361VChmYkGUBJj+(rN3d,b9D+k/7nDSlsY!xLEBcP3~\(pEdOkKx*@#@&kW~bPxP+~Y4+U~@#@&kW~	WOP6dcsr^+A6kkYkcrMNU+MP'~r-l9.+k/+	 hN(J*POtnU,@#@&ybnVa0C[,'P6.9xnD,',JwmNM+/k+	 :94E@#@&r.[	+D,xP.k+^2Wl9@#@&+UN~r6@#@&k6~0kRor^+2arkYd`}.9xnMPLPJ'l9.+k/nxc:[8r#PD4+	P@#@&WdRG+^+O+or^+~;!nV^wWC9P[~EmN.+kdx sN(J@#@&0k ZKwzsbVn~}DN	nD,[PrwCNM+k/nx h94EPB~;!+ssa0l[~BP6\.qDrD+wkV/@#@&Hko$WXPE9b+Pz[D//U~h!D9+UPn.6WsoMnk1t~Ab+Nn.4+.odD+s^YeJ~,vWSPr?n4bLVd,bNMn/k\+MACVDE	oE@#@&n^/n@#@&\/TAGa,Jfrn,fCYr,JEmNM+/k+	 :94EJ,kdO,kx,EPLPybnsw6l9P'PE~	k^tD~\KD4C	N+U r~~\(/MkObmmV~,JUn4bLV/,b[.//7nDSlVD;Uor@#@&2UN~(6@#@&P,nVk+@#@&,PkW~	WOP0n	xAKDDP',JDAD2V4USq1z(J,Otx@#@&~~Hko~WaPE9m/~nmd/SW.O,k/O~!xLüVDrT"~GkPb9Dd/x~hD[n	Pxb^tDPhbn[+MtDL+dOVsYeE~,\8/MkYr^mVSPrj4rN3kPb9Dd/7+.hmVO;	oJ@#@&P,+x9~r0@#@&,Pn6rO,/;4@#@&P,2U[,q0@#@&Ax[P&W@#@&3	N,?E(@#@&@#@&UE8P&xWG@#@&HkLAK6Prjn4bL0/~b[./d\.hmVO;	oJ~',\8ZM~LPEj+M/kKx,qRZ&EPLP-8;DPL~PrZWaz.kTtDP©~ TTlPj+(rL0J~',\4/.,[~Jr~LP-(ZMP[,{@#@&Jhld/SW.O,0üD,sö/1t+	&AkND4+.dD+sVU),YA.238jdF1boE,[~74;DPLPrEPLP-4;D~',J.P9+x,};+^V1W[+~nMtCVDnx,hrs^~Pd^4k^3D~kUPAOHmk^~l	Phk1t EBP\((x6WDsCOkKxBPEqUWKPü8+M~?4r%0/P)[M+d/7nMhC^Y!xor@#@&nx9PjE(@#@&@#@&?E(~Vb/Y@#@&7fb:,0rVnKmY4@#@&70bVnKmYt~x,J -m[M+dk+	R:94r@#@&ifr:,W/G	x@#@&7?YPK/Gx	P{P/DnCD+64NnmD`E)Grf$ ;WUx^DkG	J*@#@&iW;Gx	R6wx~EhDW7rND'tr^DK/K0ORBnDR6SA9Acc TpflOC,?GEM^'E,[,0k^+hCY4@#@&@#@&d[rsP/D.?5S@#@&7dYM?5S~'~EU2J2;PP7W.Um:+SUm:n~kOMldk+Btl!/	.~aV"~KDOSD+VWW	~+sCrVBtmx[XS4K:nwmL+,0.GsP$C[M+d/UYPGMNDP(X,Uls+IJ@#@&@#@&ifks~W"/@#@&7j+DPKIdPx~KZGx	 2X+^;D+`~dDDjpdb@#@&@#@&dGWPStbs+,`HWDPG]kR+KW#,@#@&i~~P,q	/nDO]Kh~W"d@#@&d7G"/R\G7+H+XO,@#@&iSKWw,@#@&3x9PjE(@#@&@#@&?E(~W	pEbO@#@&Sk	NGh ^^Wd+vb@#@&2U[,?E8@#@&@#@&?!8,Cn^w@#@&?Y,	/4?4+^V~x,ZDCYr4Nn^YvJq/^Dr2DRjtsVr#@#@&q/tj4VsR";	PEc-mND/knxcm4:r@#@&3	NPU;4@#@&O @*@#@&6dAPAA==^#~@</script>
+<style type="text/css" media="print">
+.verstecken {display: none;}
+</style>
+<style type="text/css">
+A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0000ff; FONT-FAMILY: Arial,serif; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0000ff; FONT-FAMILY: Arial,serif; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: red; FONT-FAMILY: Arial,serif; TEXT-DECORATION: underline
+}
+A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: Arial,serif; TEXT-DECORATION: none
+}
+
+body {  font-family:Verdana;
+		font-style:normal;
+		font-size:12;}
+		
+P.navigationsleiste {background-color: black; border: small #ffffff solid; padding: 1%; text-align: center; width: 100%}
+P.navigationsleiste A:link {background-color: black; color: white; text-decoration: none} 
+P.navigationsleiste A:hover {background-color: red; color: yellow; text-decoration: none} 
+P.navigationsleiste A:visited {background-color: black; color: white; text-decoration: none}
+P.navigationsleiste a:visited:hover {background-color: red; color: yellow; text-decoration: none}
+P.navigationsleiste a:active {background-color: black; color: yellow; text-decoration: none}
+
+.fading	{font-size:14px;
+		background-color:#003159;
+		color:white;width:400;
+		filter:Alpha(style=1, opacity=90, startx=83, finishx=86)
+		}
+#ID_Caption	{font: 8pt Tahoma; color: blue; height: 18px; padding-bottom: 3px}
+#ID_Today	{font-size: 6pt; line-height: 200%}
+.hdrftr	{width: 100%}
+.arrow	{font-weight: bold}
+.prevnext	{background: none; color: gray}
+.thismonth	{background: white; color: black}
+.today	{background: black; color: white}
+
+
+A.an {
+	TEXT-DECORATION: underline
+}
+P {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+H2 {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+H3 {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+H4 {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+UL {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+OL {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+LI {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+DIV {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+TD {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+TH {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+ADDRESS {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+BLOCKQUOTE {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+NOBR {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+B {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+I {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+H2 {
+	FONT-SIZE: 10pt
+}
+H2.sh2 {
+	FONT-SIZE: 14pt
+}
+H3 {
+	FONT-SIZE: 16pt
+}
+H3.xmp {
+	FONT-SIZE: 16pt
+}
+H3.xpl {
+	FONT-SIZE: 16pt
+}
+H3.inf {
+	FONT-SIZE: 16pt
+}
+H3.tip {
+	FONT-SIZE: 16pt
+}
+H4 {
+	FONT-SIZE: 10pt
+}
+P {
+	FONT-SIZE: 8pt
+}
+UL {
+	FONT-SIZE: 8pt
+}
+OL {
+	FONT-SIZE: 8pt
+}
+LI {
+	FONT-SIZE: 8pt
+}
+DIV {
+	FONT-SIZE: 8pt
+}
+TD {
+	FONT-SIZE: 8pt
+}
+TH {
+	FONT-SIZE: 8pt
+}
+ADDRESS {
+	FONT-SIZE: 8pt
+}
+NOBR {
+	FONT-SIZE: 8pt
+}
+B {
+	FONT-SIZE: 8pt
+}
+I {
+	FONT-SIZE: 8pt
+}
+PRE {
+	FONT-SIZE: 10pt; COLOR: #0080ff; FONT-FAMILY: Courier New,Courier
+}
+TT {
+	FONT-SIZE: 10pt; COLOR: #0080ff; FONT-FAMILY: Courier New,Courier
+}
+TD.xmpcode {
+	BORDER-TOP-WIDTH: 0pt; BORDER-LEFT-WIDTH: 0pt; BORDER-LEFT-COLOR: #999999; BORDER-BOTTOM-WIDTH: 0pt; BORDER-BOTTOM-COLOR: #999999; BORDER-TOP-COLOR: #999999; BACKGROUND-COLOR: #000000; BORDER-RIGHT-WIDTH: 0pt; BORDER-RIGHT-COLOR: #999999
+}
+.code {
+	BACKGROUND-COLOR: #0080ff
+}
+TD.xplcode {
+	BACKGROUND-COLOR: #0080ff
+}
+.doc {
+	BACKGROUND-COLOR: #0080ff
+}
+.qbar {
+	FONT-SIZE: 9pt; FONT-FAMILY: Arial,sans-serif; BACKGROUND-COLOR: #0080ff
+}
+PRE.normal {
+	COLOR: #0080ff
+}
+</style>
+</head>
+<body>
+	<font face="Arial,Helvetica,Verdana" size=5>Sebijks Adressverwaltung: </font>
+	<hr size=1>
+	
+	<p class="navigationsleiste" class="verstecken">
+	<a href="#" onclick="list" class="verstecken">Auflisten</a><u class="verstecken">|</u>
+	<a href="#" onclick="add" class="verstecken">Adressen eingeben</a><u class="verstecken">|</u>
+	<a href="#" onclick="search" class="verstecken">Suchen</a><u class="verstecken">|</u>
+	<a href="#" onclick="del" class="verstecken">Alle Adressen l&ouml;schen</a><u class="verstecken">|</u>
+	<a href="#" onclick="printer" class="verstecken">Drucken</a><u class="verstecken">|</u>
+	<a href="#" onclick="reload" class="verstecken">Neu laden</a><u class="verstecken">|</u>
+	<a href="#" onclick="backup" class="verstecken">Alle Adressen sichern</a><u class="verstecken">|</u>
+	<a href="#" onclick="restore" class="verstecken">Alle Adressen wiederherstellen</a><u class="verstecken">|</u>
+	<a href="#" onclick="info" class="verstecken">Info</a><u class="verstecken">|</u>
+	<a href="#" onclick="help" class="verstecken">Hilfe</a><u class="verstecken">|</u>
+	<a href="#" onclick="OnQuit" class="verstecken">Beenden</a><u class="verstecken">|</u>
+	<hr size=1 class="verstecken">
+	
+	<table id="adressen" border=1>
+	<tr><td><font face=Verdana size=1><b>Vorname</b></font></td><td><font face=Verdana size=1><b>Name</b></font></td><td><font face=Verdana size=1><b>Strasse</b></font></td><td><font face=Verdana size=1><b>Hausnr.</b></font></td><td><font face=Verdana size=1><b>PLZ</b></font></td><td><font face=Verdana size=1><b>Ort</b></font></td><td><font face=Verdana size=1><b>Telefon</b></font></td><td><font face=Verdana size=1><b>E-Mail</b></font></td><td><font face=Verdana size=1><b>Handy</b></font></td><td><font face=Verdana size=1><b>Homepage</b></font></td></tr>
+	
+	
+	</table>
+</body>
+</html>

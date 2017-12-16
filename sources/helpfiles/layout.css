@@ -1,0 +1,167 @@
+A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0000ff; FONT-FAMILY: Arial,serif; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0000ff; FONT-FAMILY: Arial,serif; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: red; FONT-FAMILY: Arial,serif; TEXT-DECORATION: underline
+}
+A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: Arial,serif; TEXT-DECORATION: none
+}
+
+body {  font-family:Verdana;
+		font-style:normal;
+		font-size:12;}
+		
+P.navigationsleiste {background-color: black; border: small #ffffff solid; padding: 1%; text-align: center; width: 85%}
+P.navigationsleiste A:link {background-color: black; color: white; text-decoration: none} 
+P.navigationsleiste A:hover {background-color: red; color: yellow; text-decoration: none} 
+P.navigationsleiste A:visited {background-color: black; color: white; text-decoration: none}
+P.navigationsleiste a:visited:hover {background-color: red; color: yellow; text-decoration: none}
+P.navigationsleiste a:active {background-color: black; color: yellow; text-decoration: none}
+
+.fading	{font-size:14px;
+		background-color:#003159;
+		color:white;width:400;
+		filter:Alpha(style=1, opacity=90, startx=83, finishx=86)
+		}
+#ID_Caption	{font: 8pt Tahoma; color: blue; height: 18px; padding-bottom: 3px}
+#ID_Today	{font-size: 6pt; line-height: 200%}
+.hdrftr	{width: 100%}
+.arrow	{font-weight: bold}
+.prevnext	{background: none; color: gray}
+.thismonth	{background: white; color: black}
+.today	{background: black; color: white}
+
+
+A.an {
+	TEXT-DECORATION: underline
+}
+P {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+H2 {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+H3 {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+H4 {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+UL {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+OL {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+LI {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+DIV {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+TD {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+TH {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+ADDRESS {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+BLOCKQUOTE {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+NOBR {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+B {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+I {
+	COLOR: #000000; FONT-FAMILY: verdana,arial
+}
+H2 {
+	FONT-SIZE: 10pt
+}
+H2.sh2 {
+	FONT-SIZE: 14pt
+}
+H3 {
+	FONT-SIZE: 16pt
+}
+H3.xmp {
+	FONT-SIZE: 16pt
+}
+H3.xpl {
+	FONT-SIZE: 16pt
+}
+H3.inf {
+	FONT-SIZE: 16pt
+}
+H3.tip {
+	FONT-SIZE: 16pt
+}
+H4 {
+	FONT-SIZE: 10pt
+}
+P {
+	FONT-SIZE: 8pt
+}
+UL {
+	FONT-SIZE: 8pt
+}
+OL {
+	FONT-SIZE: 8pt
+}
+LI {
+	FONT-SIZE: 8pt
+}
+DIV {
+	FONT-SIZE: 8pt
+}
+TD {
+	FONT-SIZE: 8pt
+}
+TH {
+	FONT-SIZE: 8pt
+}
+ADDRESS {
+	FONT-SIZE: 8pt
+}
+NOBR {
+	FONT-SIZE: 8pt
+}
+B {
+	FONT-SIZE: 8pt
+}
+I {
+	FONT-SIZE: 8pt
+}
+PRE {
+	FONT-SIZE: 10pt; COLOR: #0080ff; FONT-FAMILY: Courier New,Courier
+}
+TT {
+	FONT-SIZE: 10pt; COLOR: #0080ff; FONT-FAMILY: Courier New,Courier
+}
+TD.xmpcode {
+	BORDER-TOP-WIDTH: 0pt; BORDER-LEFT-WIDTH: 0pt; BORDER-LEFT-COLOR: #999999; BORDER-BOTTOM-WIDTH: 0pt; BORDER-BOTTOM-COLOR: #999999; BORDER-TOP-COLOR: #999999; BACKGROUND-COLOR: #000000; BORDER-RIGHT-WIDTH: 0pt; BORDER-RIGHT-COLOR: #999999
+}
+.code {
+	BACKGROUND-COLOR: #0080ff
+}
+TD.xplcode {
+	BACKGROUND-COLOR: #0080ff
+}
+.doc {
+	BACKGROUND-COLOR: #0080ff
+}
+.qbar {
+	FONT-SIZE: 9pt; FONT-FAMILY: Arial,sans-serif; BACKGROUND-COLOR: #0080ff
+}
+PRE.normal {
+	COLOR: #0080ff
+}

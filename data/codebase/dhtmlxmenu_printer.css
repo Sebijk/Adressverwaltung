@@ -1,0 +1,98 @@
+/*button text - all levels*/
+.menuButtonSecond td, .menuButton td, .menuButtondown td, .menuButtonover td {
+	cursor:default;
+}
+/*menu text - all levels*/
+.defaultMenuText{
+	display: none;
+}
+/*disabled menu text - all levels*/
+.buttonTextDisabled{
+	display: none;
+}
+
+/*menu caption if any*/
+.menuName{
+	display: none;
+}
+/*========= BUTTONS ======================*/
+
+/*plain button state - top level*/
+.menuButton {
+	display: none;
+}
+/*down button state - top level*/
+.menuButtondown {
+	display: none;
+}
+/*mouse over button state - top level*/
+.menuButtonover {
+	display: none;
+}
+/*plain button state - other levels*/
+.menuButtonSecond {
+	display: none;
+}
+/*mouse over button and down button states - other levels*/
+.menuButtonSecondover, .menuButtonSeconddown {
+	display: none;
+}
+/*icon place style on button over/down - other levels
+.menuButtonSeconddownimg {
+	background-color : #C9D9F5;
+}*/
+
+/*text of mouse over button - other levels*/
+.menuButtonSeconddown td {
+	display: none;
+}
+
+
+/*============ PANELS and DEVIDERS ===========================================*/
+
+/*manu panel - top level*/
+.menuTable{
+	display: none;
+	
+}
+/*menu panel - other levels*/
+.secondMenuTable{
+	display: none;
+}
+
+/*devider - horizontal*/
+.menuDivider {
+	display: none;
+}
+/*devider - vertical*/
+.menuDividerY {
+	display: none;
+}
+
+/*================== DRAG HANDLERS ==================*/
+
+/*drag handler for menu - horizontal*/
+.menuHandle {
+	display: none;
+}
+/*drag handler for menu - vertical*/
+.vmenuHandle {
+	display: none;
+}
+
+
+/*============ ICONS and SCROLLERS ====================*/
+
+/*disabled icon - all levels*/
+.iconGray {
+	display: none;
+}
+
+/*enabled scroller*/
+.menuScrollerEnabled{
+	display: none;
+}
+/*disabled scroller*/
+.menuScrollerDisabled{
+	display: none;
+}

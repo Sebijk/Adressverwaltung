@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:tool>
+<!--
+
+Sebijk's Adressverwaltung 
+Version 1.07
+Copyright © 2005 - 2010 Home of the Sebijk.com
+Alle Rechte vorbehalten.
+
+!-->
+<head>
+<meta name="vs_defaultClientScript" content="VBScript" />
+<meta name="vs_targetSchema" content="http://www.sebijk.com" />
+<meta http-equiv="Page-Enter" content="blendTrans(Duration=1)" />
+<meta http-equIv="Page-Exit" content="blendTrans(Duration=1)" />
+<meta name="Copyright" content="(c) 2005 - 2010 Sebijk" />
+<meta name="publisher" content="Home of the Sebijk.com" />
+<title>Sebijk's Adressverwaltung</title>
+ <hta:application
+  id="sjadressen"
+  borderstyle="normal"
+	ApplicationName="Adressverwaltung"
+	Border = "thick"
+	caption="yes"
+	icon = "data/adressen.ico"
+	INNERBORDER = "no"
+	maximizebutton="yes"
+	minimizebutton=="yes"
+	showintaskbar="yes"
+	singleinstance="no"
+	sysmenu="yes"
+	version="1.07"
+	contextmenu="no"
+	>
+<script language="JavaScript" type="text/javascript" src="data/codebase/dhtmlxprotobar.js"></script>
+<script language="JavaScript" type="text/javascript" src="data/codebase/dhtmlxmenubar.js"></script>
+<script language="JavaScript" type="text/javascript" src="data/codebase/dhtmlxcommon.js"></script>
+<script id="clientEventHandlersVBS" language="VBScript" type="text/vbscript" src="data/adressen.vbs"></script>
+<link rel="stylesheet" type="text/css" href="data/adressen.css" />
+<style type="text/css" media="print">
+<!--
+.verstecken {display: none;}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="data/codebase/dhtmlxmenu.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="data/codebase/dhtmlxmenu_printer.css" media="print" />
+</head>
+<body dir="ltr" scroll="auto" background="data/background.jpg" bgproperties="fixed">
+<script type="text/javascript" language="JavaScript">
+
+	 IE = typeof(document.all)=='object';
+	 
+		function onButtonClick(itemId,itemValue)
+		{
+		if (itemId == "help_about") { if(IE){ info(); } }
+		if (itemId == "help_index") { if(IE){ help(); } }
+		if (itemId == "help_license") { if(IE){ show_license(); } }
+    if (itemId == "print") { if(IE){ printer(); } }
+    if (itemId == "find") { if(IE){ search(); } }
+    if (itemId == "edit_clear") { if(IE){ del(); } }
+    if (itemId == "edit_clearquery") { if(IE){ deletequery(); } }
+    if (itemId == "save") { if(IE){ backup(); } }
+    if (itemId == "saveastxt") { if(IE){ saveastxt(); } }
+    if (itemId == "close") { if(IE){ OnQuit(); } }
+    if (itemId == "restoreadr") { if(IE){ restore(); } }
+    if (itemId == "add")  { if(IE){ add(); } }
+    if (itemId == "reload") { if(IE){ reload(); } }
+    }
+		
+		aMenuBar=new dhtmlXMenuBarObject('menu_zone',600,20,"",0);
+		aMenuBar.setGfxPath("data/codebase/imgs/");		
+		aMenuBar.setOnClickHandler(onButtonClick);
+		aMenuBar.loadXML("data/_menu.xml")
+		aMenuBar.showBar();
+
+</script><br />
+	<font face="Arial,Helvetica,Verdana" size="5">Sebijk's Adressverwaltung: </font>
+	<hr size="1" />
+	<table id="adressen" border="1">
+	<tr><td><font face="Verdana" size="1"><b>Vorname</b></font></td><td><font face="Verdana" size="1"><b>Name</b></font></td><td><font face="Verdana" size="1"><b>Stra&szlig;e</b></font></td><td><font face="Verdana" size="1"><b>Hausnr.</b></font></td><td><font face="Verdana" size="1"><b>PLZ</b></font></td><td><font face="Verdana" size="1"><b>Ort</b></font></td><td><font face="Verdana" size="1"><b>Telefon</b></font></td><td><font face="Verdana" size="1"><b>E-Mail</b></font></td><td><font face="Verdana" size="1"><b>Handy</b></font></td><td><font face="Verdana" size="1"><b>Homepage</b></font></td></tr>
+	</table>
+	<script type="text/vbscript" language="VBScript">list()</script>
+</body>
+</html>

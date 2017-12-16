@@ -1,0 +1,26 @@
+<?xml version='1.0' ?>
+<menu maxItems="12" name=" " mixedImages="yes">
+	<MenuItem name="Datei" src="programs.gif" id="main_file" width="120px" panelWidth="130px">
+			<MenuItem name="Adressen wiederherstellen" id="restoreadr"/>
+			<MenuItem name="Sichern..." id="save" src="iconSave.gif"/>
+			<MenuItem name="Als Textdatei speichern..." id="saveastxt" src="icon41.gif"/>
+			<divider id="div_1"/>	
+			<MenuItem name="Drucken..." id="print" src="iconPrint.gif"/>
+			<divider id="div_2"/>	
+			<MenuItem name="Neu laden" id="reload"/>
+			<MenuItem name="Beenden" id="close" src="icon42.gif"/>
+	</MenuItem>
+	<MenuItem name="Bearbeiten" src="edit.gif" id="main_edit"  width="120px" panelWidth="130px">	
+      <MenuItem name="Adressen eingeben" id="add" src="iconNewNewsEntry.gif"/>
+      <MenuItem name="Eine Adresse loeschen" src="" id="edit_clearquery"/>
+			<MenuItem name="Alle Adressen loeschen" src="" id="edit_clear"/>
+			<divider id="div_3"/>	
+			<MenuItem name="Adressen suchen..." id="find" src="iconSearch.gif"/>
+	</MenuItem>
+	<MenuItem name="Hilfe" src="help.gif" id="main_help" width="120px" panelWidth="130px"> 
+			<MenuItem name="Index" width="120px" src="help.gif"  id="help_index"/>	
+			<MenuItem name="Lizenz" src="" id="help_license"/>
+			<divider id="div_4"/>	
+			<MenuItem name="Info" src="info.gif" id="help_about"/>			
+	</MenuItem>
+</menu>

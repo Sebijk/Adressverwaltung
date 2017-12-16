@@ -1,0 +1,55 @@
+Version 1.07:
+
+ - Schreibrechteproblem mit eingeschränkten Rechten behoben
+ - Löschfunktion für einzelne Adressen hinzugefügt
+ - Mehrbenutzerfähig
+ - Adressen werden nun automatisch aufgelistet
+ - Als Textdatei speichern-Funktion korrigiert
+
+Version 1.06:
+
+ - Lizenzart geändert in GPL
+ - Quelltext nun öffentlich zugänglich
+   (Keine Verschlüsselung des Quelltext mehr)
+ - Bugfixes
+ - Neues Menü
+
+Version 1.05: 
+
+ - Design angepasst
+ - Paar Bugs behoben
+
+Version 1.04: 
+
+ - Design angepasst
+ - Scrollleiste erscheint nur, wenn es notwendig ist
+ - Fehlerhafte Urls zu Sebijk behoben
+ 
+Version 1.03: 
+
+ - Schließfunktion hinzugefügt
+ - Übergabe an Word entfernt, da es nicht 
+   funktioniert
+ - Neue Navigationsleiste
+ - Lizenz hinzugefügt
+ - Hilfe ein wenig erweitert
+
+
+Version 1.02: 
+
+ - Hilfe hinzugefügt
+ - Druckfunktion hinzugefügt
+ - Sicherungs und Wiederherstellungsfunktion
+   direkt integriert
+ - Neu laden und Info hinzugefügt
+
+Version 1.01: 
+
+ - Lies mich Datei enthalten!
+ - Sicherungsfunktion hinzugefügt
+ - Fehler beim Adressen löschen behoben
+ - Homepage in der Adressverwaltung hinzugefügt
+ 
+Version 1.00: 
+
+Erste Version
